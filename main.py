@@ -15,8 +15,8 @@ def render_graph():
     avg_temps = np.array([float(f) for f in input_value.split(' ')])  # Parse comma-separated values
     days = np.arange(1, len(avg_temps) + 1, 1)
     plt.figure(figsize=(10, 5))
-    plt.fill_between(days, avg_temps, alpha=0.3, color='lightblue')
-    plt.plot(days, avg_temps, marker='o', color='blue', linestyle='-')
+    plt.fill_between(days, avg_temps, alpha=0.3, color='red')
+    plt.plot(days, avg_temps, marker='o', color='cyan', linestyle='-')
     plt.title("Average Monthly Temperatures in Ukraine (2023)")
     plt.ylabel("Temperature (°C)")
     plt.xlabel("Day of Year")
