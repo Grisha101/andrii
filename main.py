@@ -42,7 +42,6 @@ plt.figure(figsize=(5, 2.7), layout='constrained')
 plt.plot(x, x, label='linear')  # Plot some data on the (implicit) Axes.
 plt.plot(x, x**2, label='quadratic')  # etc.
 plt.plot(x, x**3, label='cubic')
-# build a parabola
 plt.plot(x, x**2, label='parabola', color='purple')
 plt.xlabel('x label')
 plt.ylabel('y label')
